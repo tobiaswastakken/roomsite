@@ -1,7 +1,7 @@
 # PWA con NextJS y Materia UI
 
 Este template fue creado para aprender sobre tecnologías frontend. Posee un ejemplo y en este archivo se explicara el paso a paso de como fue su proceso de desarrollo. Si te sirvió, considera dar una estrella para valorar el trabajo realizado
-
+:)
 ## Entorno
 
 Asegurarse de tener instalado `git` . Esto se puede revisar muy fácilmente a trevés del comando `git --version` . En caso de no estar instalado, se puede hacer a través de los siguientes paso
