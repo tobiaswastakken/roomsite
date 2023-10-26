@@ -5,6 +5,8 @@ import {
   TextField,
   Typography,
   useTheme,
+  Link
+
 } from "@mui/material";
 
 const Login = () => {
@@ -30,15 +32,46 @@ const Login = () => {
           variant="standard"
           type="password"
         />
+      </Stack>
+      <Container
+        style={{
+          display:"flex",
+          justifyContent:"center",
+          marginTop:"50px"
+        }}
+      >
         <Button
           variant="contained"
           style={{
-            marginTop: "2rem",
+            display:"flex",
+            justifyContent:"center",
           }}
         >
           Iniciar Sesion
         </Button>
-      </Stack>
+      </Container>
+      <Container 
+      style={{
+        display:"flex",
+        justifyContent:"center", 
+        marginTop:"70px",
+      }}
+      >
+        <Typography>
+          ¿Olvidaste tu contraceña?
+        </Typography>
+      </Container>
+      <Container
+          style={{
+            display:"flex",
+            justifyContent:"center"
+          }}
+      >
+        <Link href ="#" underline="none">
+          Recuperarla
+        </Link>
+
+      </Container>
     </Container>
   );
 };

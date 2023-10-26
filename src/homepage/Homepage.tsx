@@ -26,7 +26,7 @@ const Homepage = () => {
                fontWeight:"bold",
                color:"#3851AC",
                textAlign:"center"}}>
-             Sigue estos tips para que tu experiencia sea realmente sensacional.
+                Sigue estos tips para que tu experiencia sea realmente sensacional.
              </Typography>
            </Container>
            <Container style={{
